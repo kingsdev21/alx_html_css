@@ -11,9 +11,15 @@ main{
 article{
     flex: 2;
     overflow-y: auto;
+    color: blue;
 }
 aside{
     flex: 1;
     overflow-y: auto;
+}
+
+table{
+    border-style: solid;
+    border-width:1px ;
 }
 
