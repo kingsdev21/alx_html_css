@@ -303,9 +303,11 @@ footer section{
     padding: 5% 7% 0% 7%;
 }
 
+
 footer section div{
     display: flex;
     justify-content: space-between;
+
 }
 .socialmedia{
     display: flex;
@@ -316,7 +318,11 @@ footer section div{
     body{
         width: 100%;
     }
-    .FirstSection header nav ul{
+    /* .FirstSection header nav ul{
         display: none;
-    }
+    } */
+    /* footer section, .Faqs > div,  */
+   *, *::after, *::before{
+    flex-direction: column;
+   }
 }
