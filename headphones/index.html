@@ -4,19 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Build from Scratch</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/4a2b055604.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <main>
       <section class="firstsection">
         <header>
-          <nav>
+          <input type="checkbox"  id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </label>
+          <nav class="nav-links">            
             <img src="images/logo_headphones.png" alt="" />
             <a href="#" id="firsta">what we do</a>
             <a href="#">our result</a>
@@ -140,6 +147,18 @@
         </form>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <section>
+          <div>
+              <img src="/headphones/images/logo.png" alt="logo">
+              <div class="socialmedia">
+                <a href="#" class="fa fa-facebook"></a>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+              </div>
+          </div>
+          <p>©smileschool 2020</p>
+      </section>
+  </footer>
   </body>
 </html>
