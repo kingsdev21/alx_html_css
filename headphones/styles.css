@@ -4,15 +4,20 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  
+  
+}
+body{
   font-family: SourceSansPro-bold;
 }
-
 
 :root {
   --fontcolor: #fff;
   --itemcolor: #ff6565;
 }
-
+#copyright{
+  color: rgb(245, 243, 239);
+}
 button:hover, :active {
   opacity: 0.9;
 }
@@ -20,7 +25,10 @@ a:hover,
 :active {
   color: #ff6565;
 }
-
+.socialmedia a{
+  color: white;
+  text-decoration: none;
+}
 .bar{
   width: 25px;
   height: 3px;
@@ -279,5 +287,10 @@ footer section div{
   }
   .polydiv{
     gap: 0 5;
+  }
+
+  #logos{
+    height: 32px;
+    width: 161px;
   }
 }
