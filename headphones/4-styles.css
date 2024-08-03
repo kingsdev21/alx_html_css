@@ -107,7 +107,7 @@ article {
 }
 
 .secondsection {
-  padding: 1% 10%;
+  padding: 1% 10% 1% 10%;
   margin-bottom: 30px;
 }
 
@@ -124,15 +124,23 @@ article {
   flex-wrap: wrap;
   margin-top: 200px;
   text-align: center;
+  justify-content: center;
+  gap: 4;
 }
 .second2div img {
   height: 76.8px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
+  padding: 2% 0%;
+
 }
 
 .second2div h4 {
   margin-bottom: 20px;
 }
+
+.second2div div div {
+    padding: 0% 4%;
+  }
 
 .polysection {
   background-image: url("images/headphones_hero_2.jpg");

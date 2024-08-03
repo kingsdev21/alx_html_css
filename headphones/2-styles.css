@@ -124,6 +124,7 @@ article {
   flex-wrap: wrap;
   margin-top: 200px;
   text-align: center;
+  justify-content: center;
 }
 .second2div img {
   height: 76.8px;
